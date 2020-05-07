@@ -14,12 +14,14 @@ public class GameRoom {
         RockPaperScissors rockPaperScissors = new RockPaperScissors();
         NumberGuess numberGuess = new NumberGuess();
         boolean loopEntry = false;
+        String userName;
         int userWins = 0, computerWins = 0, ties = 0;
         String inputVal = "";
 
        do {
             System.out.println("Hello user, welcome to Game Room. \n"
                     + " Please input your name");
+            userName = input.nextString;
 
        } while ();
     }

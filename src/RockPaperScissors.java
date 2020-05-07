@@ -56,4 +56,3 @@ public static class RockPaperScissors {
             }
         } while (!goAgain.toUpperCase().startsWith("N"));
     }
-}
