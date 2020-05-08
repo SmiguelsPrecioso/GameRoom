@@ -13,15 +13,17 @@ public class GameRoom {
         Scanner scanner = new Scanner(System.in);
         RockPaperScissors rockPaperScissors = new RockPaperScissors();
         NumberGuess numberGuess = new NumberGuess();
+        Connect4 connect4 = new Connect4();
         boolean loopEntry = false;
         String userName;
+        String goAgain;
         int userWins = 0, computerWins = 0, ties = 0;
         String inputVal = "";
 
        do {
             System.out.println("Hello user, welcome to Game Room. \n"
                     + " Please input your name");
-            userName = input.nextString;
+           userName = input.nextString;
 
        } while ();
     }
